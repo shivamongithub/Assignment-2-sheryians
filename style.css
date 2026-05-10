@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    width: 100vw;
+    gap: 130px;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.logoandtitle {
+    display: flex;
+    gap: 15px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.links li {
+    font-size: 1.2rem;
+}
+
+.top-button {
+    background-color: #131313;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+}
+
+.main-heading {
+    font-size: 10rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.categories div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 80px;
+    padding: 20px;
+    height: 40px;
+    background-color: #131313;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.categories .special {
+    background-color: red;
+} 
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cards div {
+    border-radius: 20px;
+    overflow: hidden;
+    background-color:#131313 ;
+    width: 400px;
+    height: 500px;
+}
+
+.cards div img {
+    border-radius: 20px;
+    
+}
+
+.category-colored {
+    background-color: #541C0B;
+    color: #f1855e;
+    width:fit-content;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.description {
+    font-size: 1.5rem;
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.date-color {
+    color: grey;
+}
